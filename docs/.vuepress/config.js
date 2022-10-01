@@ -8,7 +8,9 @@ module.exports = {
     sidebar: [],
   },
 
-  plugins: [],
+  plugins: [
+    ['view-source'],
+  ],
 
   markdown: {
     extendMarkdown: (md) => {
