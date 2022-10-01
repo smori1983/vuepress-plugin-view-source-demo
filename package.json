@@ -10,7 +10,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
-    "@vue/babel-preset-app": "4.5.15",
+    "@vue/babel-preset-app": "4.5.16",
     "core-js": "3.25.1",
     "http-server": "^14.1.1",
     "patch-package": "^6.4.7",
