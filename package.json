@@ -13,6 +13,7 @@
     "@vue/babel-preset-app": "4.5.18",
     "http-server": "^14.1.1",
     "vuepress": "^1.9.7",
+    "vuepress-plugin-view-source": "github:smori1983/vuepress-plugin-view-source#bf2a3829652f9e435f15a4f576e4901d24930fa6",
     "vuepress-types": "^0.9.4"
   },
   "repository": {
