@@ -5,7 +5,19 @@ module.exports = {
 
   themeConfig: {
     search: false,
-    sidebar: [],
+    sidebar: [
+      {
+        title: 'Pages',
+        collapsable: false,
+        sidebarDepth: 0,
+        children: [
+          '/pages/page_01.md',
+          '/pages/page_02.md',
+          '/pages/page_03.md',
+          '/pages/page_04.md',
+        ],
+      },
+    ],
   },
 
   plugins: [

@@ -11,6 +11,7 @@ home: false
 ```js
 module.exports = {
   plugins: [
+    ['view-source'],
   ],
 };
 ```
