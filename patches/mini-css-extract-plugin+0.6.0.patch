@@ -1,0 +1,16 @@
+diff --git a/node_modules/mini-css-extract-plugin/dist/loader.js b/node_modules/mini-css-extract-plugin/dist/loader.js
+index 630e527..6e4b202 100644
+--- a/node_modules/mini-css-extract-plugin/dist/loader.js
++++ b/node_modules/mini-css-extract-plugin/dist/loader.js
+@@ -50,6 +50,11 @@ function hotLoader(content, context) {
+ }
+ 
+ const exec = (loaderContext, code, filename) => {
++  console.log('=====================================================================================');
++  console.log(filename);
++  console.log('-------------------------------------------------------------------------------------');
++  console.log(code);
++  console.log('=====================================================================================');
+   const module = new _module.default(filename, loaderContext);
+   module.paths = _module.default._nodeModulePaths(loaderContext.context); // eslint-disable-line no-underscore-dangle
+ 
