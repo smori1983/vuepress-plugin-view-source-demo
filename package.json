@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "postinstall": "patch-package",
     "dev": "vuepress dev --no-cache docs",
     "build": "vuepress build docs",
     "server": "http-server docs/.vuepress/dist",
