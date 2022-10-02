@@ -1,0 +1,13 @@
+diff --git a/node_modules/@vue/babel-preset-app/index.js b/node_modules/@vue/babel-preset-app/index.js
+index 23f1d27..78a2797 100644
+--- a/node_modules/@vue/babel-preset-app/index.js
++++ b/node_modules/@vue/babel-preset-app/index.js
+@@ -190,7 +190,7 @@ module.exports = (context, options = {}) => {
+ 
+   if (process.env.VUE_CLI_BABEL_TARGET_NODE) {
+     // running tests in Node.js
+-    targets = { node: '12' }
++    targets = { node: 'current' }
+   } else if (process.env.VUE_CLI_BUILD_TARGET === 'wc' || process.env.VUE_CLI_BUILD_TARGET === 'wc-async') {
+     // targeting browsers that at least support ES2015 classes
+     targets = getWCTargets(targets)
