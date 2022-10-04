@@ -5,6 +5,9 @@ module.exports = {
 
   themeConfig: {
     search: false,
+    nav: [
+      { text: 'GitHub', link: 'https://github.com/smori1983/vuepress-plugin-view-source-demo' },
+    ],
     sidebar: [
       {
         title: 'Pages',
