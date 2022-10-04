@@ -3,7 +3,7 @@
 
 ## PHP
 
-[[source:1:begin]]
+[[source(1):begin]]
 
 - PHP
 - PHP
@@ -13,14 +13,14 @@
 echo date('Y-m-d H:i:s');
 ```
 
-[[source:1:end]]
+[[source(1):end]]
 
-[[source:1:show:container]]
+[[source(1):container]]
 
 
 ## JavaScript
 
-[[source:js:begin]]
+[[source(js):begin]]
 
 - JavaScript
 - JavaScript
@@ -30,9 +30,9 @@ echo date('Y-m-d H:i:s');
 console.log('hello, world.');
 ```
 
-[[source:js:end]]
+[[source(js):end]]
 
-[[source:js:show:container]]
+[[source(js):container]]
 
 
 ## Entire page source
